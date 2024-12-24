@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+/* .inter-<uniquifier> {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  }
+
+
+img{
+    width: 100%
+}
+
+  .container{
+background-color: hsl(0, 0%, 8%);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+  }
+
+  .card-profile {
+  background-color: hsl(0, 0%, 12%);
+  width: 450px;
+  padding: 4rem 2rem;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+  .card-profile img{ 
+width: 100px; 
+height: 100px; 
+border-radius:100px ; 
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.card-profile h2{
+font-size: 28px ;
+font-family: "Inter", serif ;
+font-weight: 700;
+padding: 5px 1rem ;
+text-align: center;
+color: #fff;
+padding-top: 2rem;
+padding-bottom: 10px;
+}
+
+.card-profile h3{
+    font-size: 16px ;
+    font-family: "Inter", serif ;
+    font-weight: 600;
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 2rem;
+}
+
+.card-profile p{
+    font-size: 16px ;
+    font-family: "Inter", serif ;
+    font-weight: 400;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 1rem 20px;
+}
+
+.btn-profile button{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family:"Inter", serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.btn-profile a{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family:"Inter", serif;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
