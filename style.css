@@ -19,7 +19,7 @@ img{
     width: 100%
 }
 
-  .container{
+  .header{
 background-color: hsl(0, 0%, 8%);
 display: flex;
 justify-content: center;
@@ -32,10 +32,10 @@ min-height: 100vh;
   width: 450px;
   padding: 4rem 2rem;
   border-radius: 16px;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
   .card-profile img{ 
@@ -47,7 +47,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.card-profile h2{
+.card-profile h1{
 font-size: 28px ;
 font-family: "Inter", serif ;
 font-weight: 700;
@@ -58,7 +58,7 @@ padding-top: 2rem;
 padding-bottom: 10px;
 }
 
-.card-profile h3{
+.card-profile h2{
     font-size: 16px ;
     font-family: "Inter", serif ;
     font-weight: 600;
